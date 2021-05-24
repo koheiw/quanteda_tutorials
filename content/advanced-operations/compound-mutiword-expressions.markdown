@@ -75,7 +75,7 @@ head(tstat_col_cap, 20)
 ## 20       Black Friday   190            0      2  8.458893  76.79848
 ```
 
-We will only compound strongly associated multi-word expressions here by subsetting `tstat_col_cap` with the z-score (`z < 3`).
+We will only compound strongly associated multi-word expressions here by subsetting `tstat_col_cap` with the z-score (`z > 3`).
 
 
 ```r
