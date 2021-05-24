@@ -36,7 +36,7 @@ gov <- c("government", "cabinet", "prime minister")
 toks_gov <- tokens_keep(toks_news, pattern = phrase(gov), window = 10)
 ```
 
-Apply the the Lexicoder Sentiment Dictionary to the selected contexts using `tokens_lookup()`. 
+Apply the Lexicoder Sentiment Dictionary to the selected contexts using `tokens_lookup()`. 
 
 
 ```r
